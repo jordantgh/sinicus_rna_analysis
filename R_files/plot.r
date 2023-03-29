@@ -1,7 +1,7 @@
 library(Gviz)
 
 # This is the bam file - the bam index file (.bai) must also be in the same dir
-# Had to exclude these from the repo because it's too big
+# Had to exclude these from the repo because they're too big
 bam_file <- "R_files/SRR2273740_Aligned.sortedByCoord.out.bam"
 
 # needed otherwise the chromosome names are not recognized:
