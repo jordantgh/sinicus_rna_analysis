@@ -4,6 +4,8 @@ STAR_index/
 /pipeline_OLD.sh
 /GCF_001888835.1_ASM188883v1_genomic.fna
 /GCF_001888835.1_ASM188883v1_genomic.gtf
+
+# Files needed for R, too big for github!
 /R_files/SRR2273740_Aligned.sortedByCoord.out.bam
 /R_files/SRR2273740_Aligned.sortedByCoord.out.bam.bai
 /R_files/SRR2273740_Aligned.sortedByCoord.out.gtf
