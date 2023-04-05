@@ -100,7 +100,7 @@ for run in "${RUNS[@]}"; do
   
   # Create a table with transcript id, sequence, and quant.sf data (length,   effectivelength, tpm, numreads)
   if [ ! -f "$FINAL_OUTPUT/$run/${run}_combined_data.csv" ]; then
-    poetry run python combine_transcript_data.py \
+    poetry run python ./aux_scripts/tabulate_tx.py \
     $FINAL_OUTPUT/$run/${run}_subset_transcripts.fasta \
     $SALMON_OUTPUT/$run/quant.sf $FINAL_OUTPUT/$run/${run}_combined_data.csv
   fi
