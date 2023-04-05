@@ -1,6 +1,9 @@
+.venv/
+poetry.lock
 _STARtmp/
 data/
 STAR_index/
+salmon_index/
 /pipeline_OLD.sh
 /GCF_001888835.1_ASM188883v1_genomic.fna
 /GCF_001888835.1_ASM188883v1_genomic.gtf
