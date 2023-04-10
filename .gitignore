@@ -1,12 +1,16 @@
 .venv/
 poetry.lock
 _STARtmp/
-data/
 STAR_index/
 salmon_index/
 /pipeline_OLD.sh
 /GCF_001888835.1_ASM188883v1_genomic.fna
 /GCF_001888835.1_ASM188883v1_genomic.gtf
+
+data/*
+!data/denovo_results/
+data/denovo_results/SRR*/*
+!data/denovo_results/SRR*/*.csv
 
 # Files needed for R, too big for github!
 /R_files/SRR2273740_Aligned.sortedByCoord.out.bam
