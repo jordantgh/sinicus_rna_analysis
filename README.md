@@ -96,6 +96,10 @@ Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
 ```
 You should now be able to begin working with this repository.
 
+As an aside, if you are working on mac as I assume, you should follow the instructions here to make sure you don't end up flooding the repo with temporary mac files (`.DS_store` files):
+
+https://www.theodinproject.com/lessons/foundations-setting-up-git
+
 ### Start working on the repo
 
 #### Clone the Repository: 
@@ -152,10 +156,13 @@ Go to the repo on GitHub and click the `Pull Requests` tab along the top (next t
 
 I will then be able to review your changes and provide feedback. If it looks all good, I'll merge your pull request into the main branch.
 
-(BTW, the nomenclature of "Pull request" might seem a bit strange; a `pull` in Gitbut is a shorthand way of doing `fetch` and `merge` as you did above, so a "pull request" is another way of saying you are asking me as the maintainer to merge your branch into `main`)
+(BTW, the nomenclature of "Pull request" might seem a bit strange; a `pull` in Github is a shorthand way of doing both `fetch` and `merge` as you did above in one operation, so "pull request" is another way of saying you are "requesting" me as the maintainer to merge your branch into `main`)
 
 Additional Resources
 To learn more about Git and GitHub, check out these resources:
+
+**TOP Git Setup Guide** - *From a course aimed at web developers, but universally applicable*:
+https://www.theodinproject.com/lessons/foundations-setting-up-git
 
 **Pro Git Book** - *A comprehensive guide to Git*: 
 https://git-scm.com/book/en/v2
