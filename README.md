@@ -40,7 +40,7 @@ ssh-keygen -t ed25519 -C "your.github.email@example.com"
 
 Follow the prompts and accept the default file location, or provide a custom location if needed (usually it will be something like `~/.ssh/id_rsa`). If you decide to use a passphrase for the key, you may end up adding some other complexities to the setup (it probably isn't necessary, unless you're worried about someone stealing your laptop and messing with your Github).
 
-Create an SSH config file to manage your SSH connections. In Terminal, run the following command to create and open the SSH config file:
+Create an SSH config file to manage your SSH connections. In Terminal, run the following command to do this:
 
 ```{bash}
 touch ~/.ssh/config
