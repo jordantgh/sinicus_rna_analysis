@@ -138,9 +138,9 @@ git fetch origin
 git merge origin/main
 ```
 
-#### Push Your Changes: P
+#### Push Your Changes:
 
-ush your branch with your changes to the repository on GitHub:
+Push your branch with your changes to the repository on GitHub:
 
 ```{bash}
 git push origin your-feature-branch-name
