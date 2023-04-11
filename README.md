@@ -58,7 +58,7 @@ Host github.com
 
 (Note, the identityfile used here should be the one that does *not* end in `.pub` -- that's for Github)
 
-#### dd the SSH key to your GitHub account: 
+#### Add the SSH key to your GitHub account: 
 
 Go to account settings (click on your profile icon on the top right > `Settings`)
 
